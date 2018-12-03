@@ -1,10 +1,14 @@
 {
-  "name": "BloodBank5AUG15",
-  "version": "0.0.0",
+  "name": "BloodBank",
+  "version": "1.0.0",
+  "description": "A Node.js web application built using Express framework with EJS as front end and MongoDB as database. Developed to be a platform for blood donors and requester.",
   "private": true,
+  "main": "server.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node server.js"
   },
+  "author": "Sai Kumar Bochkar",
+  "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "~1.13.2",
@@ -17,6 +21,7 @@
     "express-session": "^1.11.3",
     "mongoose": "^4.1.1",
     "morgan": "~1.6.1",
+    "nodemailer": "^4.7.0",
     "passport": "^0.2.2",
     "passport-local": "^1.0.0",
     "serve-favicon": "~2.3.0"
